@@ -1,10 +1,19 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir -p .github/workflows)"
+      "Bash(mkdir -p .github/workflows)",
+      "Bash(sf org *)",
+      "Bash(gh pr *)",
+      "Bash(git fetch *)",
+      "Bash(curl -s https://api.github.com/repos/abhijeet-salesforceIn/SFDC-Walmart/pulls/1)",
+      "Bash(curl -s -i https://api.github.com/repos/abhijeet-salesforceIn/SFDC-Walmart/pulls/1)",
+      "mcp__plugin_browser_browser__browser_navigate",
+      "mcp__plugin_browser_browser__browser_screenshot",
+      "Bash(npm install *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ],
-    "additionalDirectories": [
-      "/Users/a.mondal/SFDC-Walmart/.github"
-    ]
+    "additionalDirectories": ["/Users/a.mondal/SFDC-Walmart/.github"]
   }
 }
