@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
     <backgroundEndColor>#FFFFFF</backgroundEndColor>
     <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
@@ -19,7 +19,7 @@
                 <componentType>Metric</componentType>
                 <decimalPrecision>-1</decimalPrecision>
                 <displayUnits>Integer</displayUnits>
-                <groupingSortProperties/>
+                <groupingSortProperties />
                 <header>All My Cases</header>
                 <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
                 <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
@@ -58,7 +58,8 @@
                 </groupingSortProperties>
                 <header>My Open Case Priorities</header>
                 <legendPosition>Bottom</legendPosition>
-                <report>ABSCRMSFServiceAgentReports/ABS_CRM_SF_My_Case_Priorities</report>
+                <report
+        >ABSCRMSFServiceAgentReports/ABS_CRM_SF_My_Case_Priorities</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
@@ -95,7 +96,8 @@
                 </groupingSortProperties>
                 <header>My Open Cases by Type</header>
                 <legendPosition>Right</legendPosition>
-                <report>ABSCRMSFServiceAgentReports/ABS_CRM_SF_My_Cases_by_Type</report>
+                <report
+        >ABSCRMSFServiceAgentReports/ABS_CRM_SF_My_Cases_by_Type</report>
                 <showPercentage>false</showPercentage>
                 <showTotal>true</showTotal>
                 <showValues>true</showValues>
@@ -132,7 +134,8 @@
                 </groupingSortProperties>
                 <header>My Open Cases by SLA Compliance</header>
                 <legendPosition>Bottom</legendPosition>
-                <report>ABSCRMSFServiceAgentReports/ABS_CRM_SF_My_SLA_Compliance</report>
+                <report
+        >ABSCRMSFServiceAgentReports/ABS_CRM_SF_My_SLA_Compliance</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
@@ -169,7 +172,8 @@
                 </groupingSortProperties>
                 <header>My Open Cases by Issue Category</header>
                 <legendPosition>Bottom</legendPosition>
-                <report>ABSCRMSFServiceAgentReports/ABS_CRM_SF_My_Cases_by_Issue_Category</report>
+                <report
+        >ABSCRMSFServiceAgentReports/ABS_CRM_SF_My_Cases_by_Issue_Category</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
